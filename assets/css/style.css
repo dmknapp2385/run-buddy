@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
@@ -13,6 +18,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 
 header a {
