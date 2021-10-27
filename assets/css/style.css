@@ -38,7 +38,7 @@ header nav ul li {
 
 header nav ul li a {
     margin: 0px 30px;
-    font-weight: lighter;
+    font-weight:lighter;
     font-size: 22px;
 }
 
@@ -50,7 +50,7 @@ footer {
 
 footer h2 {
     display: inline;
-    columns: #024e76;
+    color: #024e76;
     font-size: 30px;
     margin: 0px;
 }
@@ -59,8 +59,10 @@ footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
+    color:#024e76;
 }
 
 footer a {
     color: #024e76;
+    text-decoration: none;
 }
