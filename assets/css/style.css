@@ -47,7 +47,7 @@ section {
 }
 .hero {
     height: 600px;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero-pb.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
