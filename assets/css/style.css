@@ -180,31 +180,48 @@ h3 {
 }
 
 .step {
-    margin-bottom: 0px;
-}
-
-.steps:last-child {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
     border-bottom: 1px solid #39a6b2;
-}
-
-.step img {
-    width: 15%;
-    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.step p {
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
+    flex: 12;
 }
 
-.step span {
-    font-size: 38px;
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
 }
 
 .trainers {
@@ -413,30 +430,31 @@ footer a {
     section {
         padding: 30px 15px;
       }
-
     
       .step h3 {
         flex: 1 100%;
         text-align: center;
       }
     
-      .step  {
+      .step-info {
         flex: 2 100%;
         text-align: center;
         justify-content: center;
       }
     
-      .step img {
-        flex: 0 35%;
+      .step-img {
+        flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
       }
     
-      .step p {
+      .step-text {
         flex: 100%;  
       }
-}
+    
+    }
+
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
